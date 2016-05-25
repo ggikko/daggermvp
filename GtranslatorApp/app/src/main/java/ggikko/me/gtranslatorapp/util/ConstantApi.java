@@ -5,5 +5,5 @@ package ggikko.me.gtranslatorapp.util;
  */
 public class ConstantApi {
 
-    public static final String BASE_URL = "ggikko";
+    public static final String BASE_URL = "https://openapi.naver.com/";
 }

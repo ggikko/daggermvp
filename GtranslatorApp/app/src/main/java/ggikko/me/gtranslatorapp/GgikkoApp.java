@@ -16,8 +16,7 @@ import lombok.Getter;
  */
 public class GgikkoApp extends Application {
 
-    @Getter
-    ApiComponent apiComponent;
+    @Getter ApiComponent apiComponent;
 
     @Override
     public void onCreate() {
