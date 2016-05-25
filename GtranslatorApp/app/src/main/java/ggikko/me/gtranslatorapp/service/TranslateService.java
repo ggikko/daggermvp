@@ -14,6 +14,6 @@ import rx.Observable;
 public interface TranslateService {
 
     @FormUrlEncoded
-    @POST()
+    @POST("v1/language/translate")
     Observable<Result> translate(@Field("source") String source, @Field("target") String target, @Field("text") String text);
 }
